@@ -1,0 +1,9 @@
+# Versions exercised locally for seed0 inference/evaluation on Python 3.11.
+torch==2.6.0
+torch-geometric==2.6.1
+rdkit==2024.3.2
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.17.1
+scikit-learn==1.5.2
+tqdm==4.70.1
