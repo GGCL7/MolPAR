@@ -44,7 +44,6 @@ weights/
   molpar_seed0.pth      Released random_seed0 Stage-2 checkpoint
 results/
   figures/             Manuscript result figures
-  summary.csv          Main numerical findings
 requirements.txt
 README.md
 workflow.png
