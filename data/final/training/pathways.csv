@@ -1,0 +1,158 @@
+level,label_index,pathway_id,name,parent_l1_index,minimum_reference_count
+L1,0,,Carbohydrate metabolism,,
+L1,1,,Energy metabolism,,
+L1,2,,Lipid metabolism,,
+L1,3,,Nucleotide metabolism,,
+L1,4,,Amino acid metabolism,,
+L1,5,,Metabolism of other amino acids,,
+L1,6,,Glycan biosynthesis and metabolism,,
+L1,7,,Metabolism of cofactors and vitamins,,
+L1,8,,Metabolism of terpenoids and polyketides,,
+L1,9,,Biosynthesis of other secondary metabolites,,
+L1,10,,Xenobiotics biodegradation and metabolism,,
+L2,0,map00010,Glycolysis / Gluconeogenesis,0,10
+L2,1,map00020,Citrate cycle (TCA cycle),0,10
+L2,2,map00030,Pentose phosphate pathway,0,10
+L2,3,map00040,Pentose and glucuronate interconversions,0,10
+L2,4,map00051,Fructose and mannose metabolism,0,10
+L2,5,map00052,Galactose metabolism,0,10
+L2,6,map00053,Ascorbate and aldarate metabolism,0,10
+L2,7,map00061,Fatty acid biosynthesis,2,10
+L2,8,map00062,Fatty acid elongation,2,10
+L2,9,map00071,Fatty acid degradation,2,10
+L2,10,map00073,"Cutin, suberine and wax biosynthesis",2,10
+L2,11,map00100,Steroid biosynthesis,2,10
+L2,12,map00120,Primary bile acid biosynthesis,2,10
+L2,13,map00121,Secondary bile acid biosynthesis,2,10
+L2,14,map00130,Ubiquinone and other terpenoid-quinone biosynthesis,7,10
+L2,15,map00140,Steroid hormone biosynthesis,2,10
+L2,16,map00220,Arginine biosynthesis,4,10
+L2,17,map00230,Purine metabolism,3,10
+L2,18,map00232,Caffeine metabolism,9,10
+L2,19,map00240,Pyrimidine metabolism,3,10
+L2,20,map00250,"Alanine, aspartate and glutamate metabolism",4,10
+L2,21,map00253,Tetracycline biosynthesis,8,10
+L2,22,map00254,Aflatoxin biosynthesis,9,10
+L2,23,map00260,"Glycine, serine and threonine metabolism",4,10
+L2,24,map00261,Monobactam biosynthesis,9,10
+L2,25,map00270,Cysteine and methionine metabolism,4,10
+L2,26,map00280,"Valine, leucine and isoleucine degradation",4,10
+L2,27,map00290,"Valine, leucine and isoleucine biosynthesis",4,10
+L2,28,map00300,Lysine biosynthesis,4,10
+L2,29,map00310,Lysine degradation,4,10
+L2,30,map00311,Penicillin and cephalosporin biosynthesis,9,10
+L2,31,map00330,Arginine and proline metabolism,4,10
+L2,32,map00331,Clavulanic acid biosynthesis,9,10
+L2,33,map00332,Carbapenem biosynthesis,9,10
+L2,34,map00333,Prodigiosin biosynthesis,9,10
+L2,35,map00340,Histidine metabolism,4,10
+L2,36,map00350,Tyrosine metabolism,4,10
+L2,37,map00360,Phenylalanine metabolism,4,10
+L2,38,map00361,Chlorocyclohexane and chlorobenzene degradation,10,10
+L2,39,map00362,Benzoate degradation,10,10
+L2,40,map00363,Bisphenol degradation,10,10
+L2,41,map00364,Fluorobenzoate degradation,10,10
+L2,42,map00365,Furfural degradation,10,10
+L2,43,map00380,Tryptophan metabolism,4,10
+L2,44,map00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",4,10
+L2,45,map00401,Novobiocin biosynthesis,9,10
+L2,46,map00403,Indole diterpene alkaloid biosynthesis,9,10
+L2,47,map00404,Staurosporine biosynthesis,9,10
+L2,48,map00405,Phenazine biosynthesis,9,10
+L2,49,map00410,beta-Alanine metabolism,5,10
+L2,50,map00430,Taurine and hypotaurine metabolism,5,10
+L2,51,map00440,Phosphonate and phosphinate metabolism,5,10
+L2,52,map00450,Selenocompound metabolism,5,10
+L2,53,map00460,Cyanoamino acid metabolism,5,10
+L2,54,map00470,D-Amino acid metabolism,5,10
+L2,55,map00480,Glutathione metabolism,5,10
+L2,56,map00500,Starch and sucrose metabolism,0,10
+L2,57,map00520,Amino sugar and nucleotide sugar metabolism,6,10
+L2,58,map00521,Streptomycin biosynthesis,9,10
+L2,59,map00522,"Biosynthesis of 12-, 14- and 16-membered macrolides",8,10
+L2,60,map00523,Polyketide sugar unit biosynthesis,8,10
+L2,61,map00524,"Neomycin, kanamycin and gentamicin biosynthesis",9,10
+L2,62,map00525,Acarbose and validamycin biosynthesis,9,10
+L2,63,map00540,Lipopolysaccharide biosynthesis,6,10
+L2,64,map00541,Biosynthesis of various nucleotide sugars,6,10
+L2,65,map00550,Peptidoglycan biosynthesis,6,10
+L2,66,map00552,Teichoic acid biosynthesis,6,10
+L2,67,map00561,Glycerolipid metabolism,2,10
+L2,68,map00562,Inositol phosphate metabolism,0,10
+L2,69,map00564,Glycerophospholipid metabolism,2,10
+L2,70,map00566,Sulfoquinovose metabolism,0,10
+L2,71,map00590,Arachidonic acid metabolism,2,10
+L2,72,map00591,Linoleic acid metabolism,2,10
+L2,73,map00592,alpha-Linolenic acid metabolism,2,10
+L2,74,map00600,Sphingolipid metabolism,2,10
+L2,75,map00620,Pyruvate metabolism,0,10
+L2,76,map00621,Dioxin degradation,10,10
+L2,77,map00622,Xylene degradation,10,10
+L2,78,map00623,Toluene degradation,10,10
+L2,79,map00624,Polycyclic aromatic hydrocarbon degradation,10,10
+L2,80,map00625,Chloroalkane and chloroalkene degradation,10,10
+L2,81,map00626,Naphthalene degradation,10,10
+L2,82,map00627,Aminobenzoate degradation,10,10
+L2,83,map00630,Glyoxylate and dicarboxylate metabolism,0,10
+L2,84,map00633,Nitrotoluene degradation,10,10
+L2,85,map00640,Propanoate metabolism,0,10
+L2,86,map00642,Ethylbenzene degradation,10,10
+L2,87,map00643,Styrene degradation,10,10
+L2,88,map00650,Butanoate metabolism,0,10
+L2,89,map00660,C5-Branched dibasic acid metabolism,0,10
+L2,90,map00670,One carbon pool by folate,7,10
+L2,91,map00680,Methane metabolism,1,10
+L2,92,map00710,Carbon fixation by Calvin cycle,1,10
+L2,93,map00720,Other carbon fixation pathways,1,10
+L2,94,map00730,Thiamine metabolism,7,10
+L2,95,map00740,Riboflavin metabolism,7,10
+L2,96,map00750,Vitamin B6 metabolism,7,10
+L2,97,map00760,Nicotinate and nicotinamide metabolism,7,10
+L2,98,map00770,Pantothenate and CoA biosynthesis,7,10
+L2,99,map00780,Biotin metabolism,7,10
+L2,100,map00785,Lipoic acid metabolism,7,10
+L2,101,map00790,Folate biosynthesis,7,10
+L2,102,map00791,Atrazine degradation,10,10
+L2,103,map00830,Retinol metabolism,7,10
+L2,104,map00860,Porphyrin metabolism,7,10
+L2,105,map00900,Terpenoid backbone biosynthesis,8,10
+L2,106,map00901,Indole alkaloid biosynthesis,9,10
+L2,107,map00902,Monoterpenoid biosynthesis,8,10
+L2,108,map00903,Limonene degradation,8,10
+L2,109,map00904,Diterpenoid biosynthesis,8,10
+L2,110,map00905,Brassinosteroid biosynthesis,8,10
+L2,111,map00906,Carotenoid biosynthesis,8,10
+L2,112,map00907,"Pinene, camphor and geraniol degradation",8,10
+L2,113,map00908,Zeatin biosynthesis,8,10
+L2,114,map00909,Sesquiterpenoid and triterpenoid biosynthesis,8,10
+L2,115,map00920,Sulfur metabolism,1,10
+L2,116,map00930,Caprolactam degradation,10,10
+L2,117,map00940,Phenylpropanoid biosynthesis,9,10
+L2,118,map00941,Flavonoid biosynthesis,9,10
+L2,119,map00942,Anthocyanin biosynthesis,9,10
+L2,120,map00943,Isoflavonoid biosynthesis,9,10
+L2,121,map00944,Flavone and flavonol biosynthesis,9,10
+L2,122,map00945,"Stilbenoid, diarylheptanoid and gingerol biosynthesis",9,10
+L2,123,map00946,Degradation of flavonoids,9,10
+L2,124,map00950,Isoquinoline alkaloid biosynthesis,9,10
+L2,125,map00960,"Tropane, piperidine and pyridine alkaloid biosynthesis",9,10
+L2,126,map00965,Betalain biosynthesis,9,10
+L2,127,map00966,Glucosinolate biosynthesis,9,10
+L2,128,map00975,Biosynthesis of various siderophores,9,10
+L2,129,map00980,Metabolism of xenobiotics by cytochrome P450,10,10
+L2,130,map00981,Insect hormone biosynthesis,8,10
+L2,131,map00982,Drug metabolism - cytochrome P450,10,10
+L2,132,map00983,Drug metabolism - other enzymes,10,10
+L2,133,map00984,Steroid degradation,10,10
+L2,134,map00996,Biosynthesis of various alkaloids,9,10
+L2,135,map00997,Biosynthesis of various other secondary metabolites,9,10
+L2,136,map00998,Biosynthesis of various antibiotics,9,10
+L2,137,map00999,Biosynthesis of various plant secondary metabolites,9,10
+L2,138,map01040,Biosynthesis of unsaturated fatty acids,2,10
+L2,139,map01051,Biosynthesis of ansamycins,8,10
+L2,140,map01052,Type I polyketide structures,8,10
+L2,141,map01053,Biosynthesis of siderophore group nonribosomal peptides,8,10
+L2,142,map01054,Nonribosomal peptide structures,8,10
+L2,143,map01055,Biosynthesis of vancomycin group antibiotics,8,10
+L2,144,map01057,Biosynthesis of type II polyketide products,8,10
+L2,145,map01059,Biosynthesis of enediyne antibiotics,8,10
