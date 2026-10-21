@@ -1,0 +1,61 @@
+# ============================================================
+# KEGG 2026 数据集重建 - 全局配置
+# 所有脚本共用；路径均相对于 data_build/ 根目录
+# ============================================================
+
+kegg:
+  base_url: "https://rest.kegg.jp"     # 仅允许该官方公网域名 (SSRF 防护)
+  rate_limit_per_sec: 3.0              # 限速，尊重 KEGG 服务
+  timeout: 30
+  max_retries: 4
+  retry_backoff: 2.0                   # 指数退避基数(秒)
+
+paths:
+  raw: "raw"
+  interim: "interim"
+  processed: "processed"
+  reports: "reports"
+
+# -------- 清洗规则 --------
+clean:
+  remove_metals_inorganic: true        # 剔除金属配合物/无机物(默认True)
+  organic_elements:                    # 有机白名单元素(remove_metals_inorganic=true时生效)
+    ["H","B","C","N","O","F","P","S","Cl","Br","I","Se","Si","As"]
+  require_carbon: true                 # 必须含碳(排除纯无机)
+  min_heavy_atoms: 2
+  max_heavy_atoms: 150
+  remove_generic_wildcards: true       # 去含 R/*/通配符的 markush 结构
+  remove_mixtures: true                # 去盐后仍多组分则丢弃
+  neutralize: true                     # 电荷中和
+
+# -------- 分层标签 --------
+labels:
+  # L1: 11 个超类, key=论文旧版索引(向后兼容), value=KEGG br08901 官方名
+  l1_kegg_superclasses:
+    0:  "Carbohydrate metabolism"
+    1:  "Energy metabolism"
+    2:  "Lipid metabolism"
+    3:  "Nucleotide metabolism"
+    4:  "Amino acid metabolism"
+    5:  "Metabolism of other amino acids"
+    6:  "Glycan biosynthesis and metabolism"
+    7:  "Metabolism of cofactors and vitamins"
+    8:  "Metabolism of terpenoids and polyketides"
+    9:  "Biosynthesis of other secondary metabolites"
+    10: "Xenobiotics biodegradation and metabolism"
+  # 从 Metabolism 分支中排除的非通路超类(全局图/结构变换图)
+  exclude_superclasses:
+    - "Global and overview maps"
+    - "Chemical structure transformation maps"
+  l2_min_count: 10                     # 每个具体 map 至少多少化合物才纳入 L2
+
+# -------- 数据划分 --------
+splits:
+  random_seeds: [0, 1, 2, 3, 4]
+  train_frac: 0.8
+  val_frac: 0.1
+  test_frac: 0.1
+  # T-A 时序划分: 旧 4192 作为"历史快照"
+  legacy_old_csv: "../dataset/kegg_dataset.csv"
+  # T-B 时序划分: C-number 作为时间代理, 新化合物比例
+  cnumber_test_frac: 0.2
