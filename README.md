@@ -212,7 +212,6 @@ Reaction permutation analyses use 1,000 permutations by default; set `--permutat
 
 ## Results
 
-The manuscript figures below show the study results. The analysis commands generate their numerical source tables, and [`results/summary.csv`](results/summary.csv) collects the principal findings.
 
 | Application | Main result |
 | --- | --- |
@@ -245,41 +244,16 @@ Consensus prediction extends pathway annotation beyond the curated reference. Re
 
 </details>
 
-<details>
-<summary>View reaction evidence and molecular examples</summary>
-
-![Reviewed evidence, scaffold-stratified support, and reaction-linked molecular examples.](results/figures/fig4.png)
-
-</details>
-
-<details>
-<summary>View pathway specificity, enzyme classes, and structural edits</summary>
-
-![Reaction-pathway permutation tests, enzyme-class associations, and local structural edits.](results/figures/fig5.png)
-
-</details>
 
 ### Evidence-anchored chemical families
 
 Directly supported compounds anchor related molecular series with shared pathway predictions. Of the 167 expansion compounds, 121 have maximum reference ECFP4 similarity below 0.8 and 62 have unseen nonempty scaffolds. Examples include epothilones, flavonoids, and terpenoid quinones.
 
-<details>
-<summary>View chemical-family expansion results</summary>
-
-![Evidence composition, structural novelty, and representative chemical families.](results/figures/fig6.png)
-
-</details>
 
 ### Drug–pathway concordance
 
 Drug structures are evaluated against pathway references derived from independently recorded human targets. Top-five matches include 18 of 78 drugs with unseen scaffolds, seven of 25 with seen scaffolds, and three of 11 acyclic drugs. Cedazuridine illustrates agreement between a predicted pathway and its target-associated reference.
 
-<details>
-<summary>View drug–pathway concordance results</summary>
-
-![Target-derived pathway references, recovery ranks, and scaffold-stratified drug results.](results/figures/fig7.png)
-
-</details>
 
 ### CRC metabolomics interpretation
 
